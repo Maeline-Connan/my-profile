@@ -1,0 +1,162 @@
+/*Color and fonts*/
+body{
+	background-color:rgba(249, 248, 251,1.0);
+	background-image: url(image/background.jpg);
+	color:#2a1602;
+	text-align: center;
+	font-family: "Dekko", cursive;
+}
+h1{
+	font-family: "Dekko", cursive;
+ 	font-weight: 800;
+  	text-transform: uppercase;
+  	font-style: normal;
+  	color: #f7f1ea;
+  	font-size:35px ;
+}
+
+h2{
+  font-weight: 400;
+  font-style: normal;
+  color:rgba(249, 248, 251, 1.0);
+  font-size:25px ;
+}
+
+h3{
+	font-size: 20px;
+	font-weight:400 ;
+	color:#2a1602;
+}
+
+h4{
+	font-style: normal;
+	color:#2a1602;
+}
+
+p{ 
+	font-family: Gloria Hallelujah, cursive;
+  	font-weight: 500;
+  	font-style: normal;
+	line-height: 2.0;
+	letter-spacing: 0.1px;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+a:hover{
+	color:rgb(51,85,38);
+	transition: color 0.3s ease;
+	text-decoration: none;
+	font-weight: 700;
+	color:#5a3505;
+}
+
+i:hover {
+	color: rgb(51,85,38);
+	transition: color 0.3s ease;
+	color:#5a3505;
+}
+
+
+/*Custome design with class*/
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 800px) {
+	.container{
+		width: 500px;
+	}
+}
+
+@media (max-width: 640px) {
+	.container{
+		width: 400px;
+	}
+}
+
+.banner-darkbrown {
+	background: rgba(104, 87, 82, 1.0);
+	padding: 40px;
+    margin: 0px;
+    border-radius: 5px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.img-rounded {
+	background: rgba(192 , 156 , 141, 0.25);
+	padding: 30px;
+	border-radius: 50%;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.image-and-description-light-brown {
+	background: rgba(192, 156, 141, 1.0);
+	padding: 20px;
+	margin: 30px 0px;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+}
+
+.icon-hover {
+	border-radius: 5px;
+	width: 150px;
+	margin: 10px;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.icon-hover:hover {
+	content: url('image/simonhover.jpg');
+	opacity: 0.9;
+}
+
+.card-lightbrown{
+	background: rgba(192, 156, 141, 1.0);
+	padding: 5px;
+	margin: 30px 0px;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+}
+.links-box-lightbrown{
+	background: rgba(104, 87, 82, 1.0);
+	padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    color: #f7f1ea;
+}
+
+.title-medium {
+	font-size: 30px;
+	color: #f7f1ea;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+	text-decoration: none;
+}
+.list-inline li {
+	display: inline;
+	padding: 20px;
+	font-size: 50px;
+	color: #f7f1ea;
+	text-decoration: none;
+}
+.list-inline i {
+	font-size: 50px;
+	text-decoration: none;
+	color: #f7f1ea;
+}
+
+/*Custome design with id*/
+#img-rounded {
+	border-radius: 50%;
+	margin: auto;
+	padding: auto;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+#bio h2 {
+	margin-bottom: 50px;
+}
